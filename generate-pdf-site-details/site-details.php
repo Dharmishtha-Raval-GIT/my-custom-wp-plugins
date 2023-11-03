@@ -27,15 +27,6 @@ add_action('wp_enqueue_scripts', 'wp_enqueue_script');
 /* End Register scripts for site details plugin */
 
 /* Start Site Information function */
-if (!function_exists("extra_site_info")) {
-    function extra_site_info($content)
-    {
-        $extra_info = "SITE INFO";
-        return $content . $extra_info;
-    }
-    add_filter('the_content', 'extra_site_info');
-}
-
 if (!function_exists("extra_site_info_menu")) {
     function extra_site_info_menu()
     {
