@@ -378,10 +378,6 @@ if (!function_exists("extra_site_info_page")) {
                 <th>DB_CHARSET</th>
                 <td><?php echo DB_CHARSET; ?></td>
             </tr>
-            <tr>
-                <th>Hello</th>
-                <td>Hello</td>
-            </tr>
         </table>
         <br>
         <form method="POST">
